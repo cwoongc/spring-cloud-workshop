@@ -18,8 +18,8 @@ public class ProductController {
 //            e.printStackTrace();
 //        }
 
-            throw new RuntimeException("I/O ERROR");
+//            throw new RuntimeException("I/O ERROR");
 
-//        return "[product id = " + productId + " at " + System.currentTimeMillis() + "]";
+        return "[product id = " + productId + " at " + System.currentTimeMillis() + "]";
     }
 }
